@@ -10,22 +10,21 @@
         width: 100%;
         margin-top: 6.6rem;
     }
-
-// NOT WORKING NOT WORKING NOT WORKING
     &__email {
         margin-top: 7.7rem;
     }
-
     &__password {
         margin-top: 4rem;
     }
-// NOT WORKING NOT WORKING NOT WORKING
-
     &__login {
-       margin-top: 8.8rem;
+        margin-top: 8.8rem;
+    }
+    &__text-links {
+        margin-top: 5.2rem;
     }
 
-    &__text-links {
-        margin-top: 5.2rem
+    &__email, 
+    &__password {
+        transform: translateX(-64.5px);
     }
 }
