@@ -1,5 +1,5 @@
 import {
-    signUP
+    signUp
 } from './auth';
 
 export {
