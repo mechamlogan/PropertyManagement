@@ -25,10 +25,11 @@ class Dashboard extends Component {
     handleTabChange = (title) => {
         const tabs = this.state.tabs;
 
-        tabs.map((tab, index) => {
-            tab.active=false
+        tabs.map(tab => {
             if(tab.title == title) {
                 tab.active = true
+            } else {
+                tab.active = false
             }
         })
 
