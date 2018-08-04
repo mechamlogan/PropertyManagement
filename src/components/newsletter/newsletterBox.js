@@ -6,7 +6,7 @@ export default function NewsletterBox(props) {
     return (
         <div className='newsletter-box'>
             <div className='newsletter-box__day'>{props.date.getDate()}</div>
-            <div className="newsletter-box__month-year">{props.date.getMonth(MM) + 1} {props.date.getFullYear()}</div>
+            <div className="newsletter-box__month-year">{props.date.getMonth() + 1} {props.date.getFullYear()}</div>
         </div>
     )
 }
