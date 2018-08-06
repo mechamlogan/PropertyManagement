@@ -1,5 +1,7 @@
 .newsletter-box {
 
+    grid-row: box-s/box-e;
+    grid-column: box-s/box-e;
     align-content: center;
 
     height: 16rem;
@@ -16,7 +18,6 @@
 
     &__day {
         align-self: end;
-        
         font-size: 7rem;
         line-height: 8.1rem;
         margin-bottom: 1rem;
