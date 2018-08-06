@@ -84,7 +84,7 @@
     }
 
     &__danger {
-        border: none;
+        border: 1px solid $color-gray-4D;
         color: white;
         background-color: $color-red-BA;
     }
