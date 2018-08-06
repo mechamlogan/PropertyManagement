@@ -67,3 +67,25 @@
         text-align: center;
     }
 }
+
+.form-button-small {
+
+    &__button {
+        width: 13rem;
+
+        border-radius: 1.6rem;
+        border: 1px solid $color-gray-4D;
+        height: 2.4rem;
+    
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    
+        text-align: center;
+    }
+
+    &__danger {
+        border: none;
+        color: white;
+        background-color: $color-red-BA;
+    }
+}
