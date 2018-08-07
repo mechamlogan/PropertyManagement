@@ -9,7 +9,7 @@ function ArchiveItem({title, date}) {
                 /
                 { date.getDate() }
                 /
-                { date.getFullYear() -2000 }
+                { date.getFullYear() - 2000 } 
             </div>
         </div>
     )
