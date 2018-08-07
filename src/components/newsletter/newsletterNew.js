@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 
 import NewNewsletterForm from './newsletterNewForm';
@@ -10,13 +11,11 @@ class NewNewsletter extends Component {
         //   // save new newsletter on the backend. perform a post request here.
         //   console.log('trying to submit to backend.');
         // } 
-        // this.props.history.push('/dashboard')
-        console.log('trying to submit');
+        this.props.history.push('/dashboard');
     }
 
     onCancel = () => {
-        // this.props.history.push('/dashboard')
-        console.log('trying to cancel');
+        this.props.history.push('/dashboard')
     }
 
     render() {
