@@ -9,7 +9,7 @@ class NewsletterLatest extends Component {
 
     render() {
 
-        const { title, imageUrl, body } = this.props;
+        const { title, imageUrl, body, _id } = this.props;
 
         return (
             <div className="newsletter-latest">
