@@ -46,7 +46,7 @@ export class FormButton extends Component {
             <div className={`${className} ${small ? 'form-button-small' : 'form-button'}`}>
                 <button
                     className={`
-                        ${className} ${small ? 'form-button-small' : 'form-button'}__button
+                        ${small ? 'form-button-small' : 'form-button'}__button
                         ${danger ? 'form-button-small__danger' : ''}
                     `}
                     type={type}

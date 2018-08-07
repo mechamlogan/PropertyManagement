@@ -8,9 +8,10 @@
         grid-column: s/e;
         grid-row: 1;
     }
+
     &__newsletter-title,
     &__body {
-        margin-top: 7.7rem;
+        margin-top: 4.1rem;
         grid-column: input-s/input-e;
     }
 
@@ -24,12 +25,12 @@
         grid-row: 1;
         justify-self: end;
         align-self: end;
-        
+
         margin-left: .2rem;
         margin-bottom: 1.2rem;
     }
 
     &__cancel {
-        transform: translateX(-8rem);
+        transform: translateX(-15.5rem);
     }
 }
