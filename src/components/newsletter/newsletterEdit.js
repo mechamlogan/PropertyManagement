@@ -1,8 +1,9 @@
+
 import React, { Component } from 'react';
 
 import NewNewsletterForm from './newsletterNewForm';
 
-class NewNewsletter extends Component {
+class EditNewsletter extends Component {
 
     onSubmit = (fields) => {
         // if(button == 'submit') {
@@ -10,11 +11,11 @@ class NewNewsletter extends Component {
         //   console.log('trying to submit to backend.');
         // } 
         this.props.history.push('/dashboard');
-    }
+    };
 
     onCancel = () => {
         this.props.history.push('/dashboard')
-    }
+    };
 
     render() {
         return (
@@ -22,11 +23,11 @@ class NewNewsletter extends Component {
                 <NewNewsletterForm 
                     onCancel={() => this.onCancel()} 
                     onSubmit={(event) => this.onSubmit(event)}
-                    title='New Newsletter'
+                    title='Edit Newsletter'
                 />
             </div>
         )
     }
 }
 
-export default NewNewsletter;
+export default EditNewsletter;
