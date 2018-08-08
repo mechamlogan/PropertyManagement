@@ -10,9 +10,7 @@ class NewsletterLatest extends Component {
     }
 
     render() {
-
         const { title, imageUrl, body, _id } = this.props;
-
         return (
             <div className="newsletter-latest">
                 <h1 className="newsletter-latest__title">{title}</h1>
