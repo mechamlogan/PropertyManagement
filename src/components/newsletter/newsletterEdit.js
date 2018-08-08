@@ -1,5 +1,6 @@
-
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import * as actions from '../../actions'
 
 import NewNewsletterForm from './newsletterNewForm';
 
@@ -18,7 +19,7 @@ class EditNewsletter extends Component {
     };
 
     componentDidMount() {
-        console.log(this.props.match.params.id);
+        this.props.fetchNewsletterWithId(this.props.match.params.id);
     }
 
     render() {
@@ -34,4 +35,4 @@ class EditNewsletter extends Component {
     }
 }
 
-export default EditNewsletter;
+export default connect(null, actions)(EditNewsletter);

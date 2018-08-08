@@ -12,5 +12,5 @@ export {
     signUp,
     signIn,
     fetchNewsletters,
-    fetchNewsletterWithId
+    fetchNewsletterWithId,
 };
