@@ -14,7 +14,7 @@ export function fetchNewsletters() {
             },
             {
                 _id: '935',
-                title: 'Seconds Newsletter',
+                title: 'Second Newsletter',
                 body: 'Ground round buffalo spare ribs tongue. Pork loin venison pork turkey, ground round picanha turducken.',
                 date: new Date(),
                 imageUrl: 'http://via.placeholder.com/960x258'
